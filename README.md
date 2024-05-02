@@ -80,3 +80,17 @@ youtube link to demonstration video
 
 https://youtu.be/4wYf6a2XNqI
 
+
+references 
+
+1.	American Psychological Association (APA). (n.d.). PsycNet. Retrieved from https://www.apa.org/
+2.	Android Developers. (n.d.). Android Developers. Retrieved from https://developer.android.com/
+3.	Bandai Co., Ltd. (n.d.). Tamagotchi. Retrieved from https://tamagotchi.com/
+4.	Interaction Design Foundation. (n.d.). IxDF - The Interaction Design Foundation. Retrieved from https://www.interaction-design.org/
+5.	Nielsen Norman Group. (n.d.). The 10 Usability Heuristics for User Interface Design. Retrieved from https://www.nngroup.com/articles/ten-usability-heuristics/
+6. UX Collective. (n.d.). UX Collective. Retrieved from https://uxdesign.cc/ 
+7. Unity Technologies. (n.d.). Unity: Develop powerful 2D & 3D games. Retrieved from https://unity.com/ 
+8. Unreal Engine. (n.d.). Unreal Engine - Official Site. Retrieved from https://www.unrealengine.com/ 
+
+
+
