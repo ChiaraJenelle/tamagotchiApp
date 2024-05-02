@@ -10,6 +10,8 @@ Experience your early years again by taking care of a digital pet. The lively la
 Encourage accountability: The TamagotchiApp offers a fun way to educate about responsibility. Players understand the significance of consistently tending to their pets' necessities, such as food, health, and hygiene. Observing the consequences of ignoring your pet's necessities highlights the importance of being accountable and the benefits of providing them with appropriate care.
 Unwind and alleviate tension: Taking care of a virtual pet can offer a soothing and immersive opportunity. Taking care of your Tamagotchi gives you a break from the usual stresses of everyday life. Players can relax and reduce stress by caring for their pet, enjoying the satisfaction of looking after a virtual companion.
 Encourage Positive Online Interaction: The TamagotchiApp offers a helpful tool to reduce time spent on idle screens. This application encourages constructive digital engagement, unlike certain games that depend on aggression or rivalry. Players participate in caring activities with their pet to generate feelings of love and empathy.
+
+
 ![image](https://github.com/ChiaraJenelle/tamagotchiApp/assets/163857396/b4183b95-141d-4ebf-8c51-f9b590f9ff5f)
 
 ![image](https://github.com/ChiaraJenelle/tamagotchiApp/assets/163857396/e94a3d05-21dd-4f41-8783-a3df9b0dc515)
@@ -31,7 +33,7 @@ Rewrite the text using the same input language and maintaining the word count:
 Behind the scenes activities.
 
 The application makes use of a highly effective internal data system to monitor your pet's information. When you engage with your pet, the application will adjust these statistics accordingly. The goal is to create a lightweight and efficient design that allows for seamless gameplay on different Android devices. Furthermore, the application utilizes advanced algorithms to assess your pet's overall health using its statistics. These algorithms impact the way your pet looks, moves, and sounds, resulting in an engaging and interactive experience.
-![image](https://github.com/ChiaraJenelle/tamagotchiApp/assets/163857396/f58b91c8-724d-4aa1-b906-ffb88f6e315a)
+
 
 ![image](https://github.com/ChiaraJenelle/tamagotchiApp/assets/163857396/cfc252e8-81bc-489f-943b-3f40c3bb0eae)
 
