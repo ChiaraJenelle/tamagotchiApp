@@ -37,9 +37,11 @@ The application makes use of a highly effective internal data system to monitor 
 
 ![image](https://github.com/ChiaraJenelle/tamagotchiApp/assets/163857396/cfc252e8-81bc-489f-943b-3f40c3bb0eae)
 
-![image](https://github.com/ChiaraJenelle/tamagotchiApp/assets/163857396/d5dee414-8693-4f56-a7fc-4e819c3d5791)
 
 ![image](https://github.com/ChiaraJenelle/tamagotchiApp/assets/163857396/043dec46-0629-44e2-a8e4-487635cf06fd)
+
+
+![image](https://github.com/ChiaraJenelle/tamagotchiApp/assets/163857396/d5dee414-8693-4f56-a7fc-4e819c3d5791)
 
 
 
