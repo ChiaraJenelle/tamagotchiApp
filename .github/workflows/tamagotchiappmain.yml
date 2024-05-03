@@ -1,0 +1,32 @@
+name: Tamagotchi App Workflows
+
+on:
+  push:
+    branches: [ master ]  # Run workflows on pushes to the master branch
+
+jobs:
+  # Build and test workflow
+  build-and-test:
+    runs-on: ubuntu-latest  # Run on Ubuntu virtual machines
+
+    steps:
+      - uses: actions/checkout@v3  # Checkout code from GitHub
+      - name: Set up JDK (Kotlin requires Java)
+        uses: actions/setup-java@v3
+        with:
+          java-version: 17
+      - name: Cache Gradle dependencies (optional)
+        uses: actions/cache@v3
+        with:
+          path: ~/.gradle/caches
+          key: ${{ runner.os }}-gradle-${{ hashFiles('build.gradle') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+      - name: Install dependencies
+        run: ./gradlew install  # Assuming Gradle-based project
+
+      - name: Run unit tests
+        run: ./gradlew test
+
+  # UI test workflow (optional)
+  # ... (add steps for UI testing using a framework like Espresso)
