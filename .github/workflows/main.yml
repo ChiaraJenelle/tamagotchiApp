@@ -26,6 +26,3 @@ jobs:
         run: mvn install
       - name: Run unit tests
         run: mvn test
-
-  # UI test workflow (optional)
-  # ... (add steps for UI testing using a framework like Espresso)
