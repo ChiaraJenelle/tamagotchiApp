@@ -2,7 +2,7 @@ name: Tamagotchi App Workflows
 
 on:
   push:
-    branches: [ main ]  # Run workflows on pushes to the main branch
+    branches: [ master ]  # Run workflows on pushes to the master branch
 
 jobs:
   # Build and test workflow
@@ -26,3 +26,7 @@ jobs:
         run: mvn install
       - name: Run unit tests
         run: mvn test
+
+  # UI test workflow (optional)
+  # ... (add steps for UI testing using a framework like Espresso)
+
