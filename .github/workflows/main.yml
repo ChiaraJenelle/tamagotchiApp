@@ -1,0 +1,31 @@
+name: Tamagotchi App Workflows
+
+on:
+  push:
+    branches: [ main ]  # Run workflows on pushes to the main branch
+
+jobs:
+  # Build and test workflow
+  build-and-test:
+    runs-on: ubuntu-latest  # Run on Ubuntu virtual machines
+
+    steps:
+      - uses: actions/checkout@v3  # Checkout code from GitHub
+      - name: Set up Java environment
+        uses: actions/setup-java@v3
+        with:
+          java-version: 17
+      - name: Cache dependencies (optional)
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+      - name: Install dependencies
+        run: mvn install
+      - name: Run unit tests
+        run: mvn test
+
+  # UI test workflow (optional)
+  # ... (add steps for UI testing using a framework like Espresso)
