@@ -2,7 +2,7 @@ name: Tamagotchi App Workflows
 
 on:
   push:
-    branches: [ main ]  # Run workflows on pushes to the main branch
+    branches: [ master ]  # Run workflows on pushes to the master branch
 
 jobs:
   # Build and test workflow
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3  # Checkout code from GitHub
-      - name: Set up JDK (Kotlin requires Java)
+      - name: Set up JDK (Kotlin)
         uses: actions/setup-java@v3
         with:
           java-version: 17
