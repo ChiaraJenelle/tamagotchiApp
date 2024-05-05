@@ -1,0 +1,20 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Or your desired operating system
+
+    steps:
+      - uses: actions/checkout@v3  # Checks out your code from the repository
+      - name: Set up Node.js environment (replace with your language/setup if needed)
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16  # Or your desired Node.js version
+      - name: Install dependencies (replace with your installation command)
+        run: npm install
+      - name: Run tests (replace with your test command)
+        run: npm test
